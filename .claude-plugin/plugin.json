@@ -1,6 +1,6 @@
 {
   "name": "design-skills",
-  "version": "1.14.0",
+  "version": "1.15.3",
   "description": "Design tools and product experience skills",
   "author": {
     "name": "PartMe.AI",
@@ -25,6 +25,9 @@
     "./skills/ui-design-visual",
     "./skills/remotion",
     "./skills/ui-design-theme",
-    "./skills/ui-design-preview"
+    "./skills/ui-design-preview",
+    "./skills/ui-design-to-image",
+    "./skills/ui-design-use",
+    "./skills/product-interface-spec"
   ]
 }

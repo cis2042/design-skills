@@ -24,7 +24,7 @@ English | [简体中文](./README.zh-CN.md)
 
 **Design Tools Skills** is a curated collection of Agent Skills for AI coding agents, part of the [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) ecosystem maintained by [PartMe.AI](https://github.com/partme-ai).
 
-This package currently registers **16 skills**. Each skill is a self-contained `SKILL.md` file that AI agents load on-demand.
+This package currently registers **19 skills**. Each skill is a self-contained `SKILL.md` file that AI agents load on-demand.
 
 ## 📦 Install
 
@@ -38,7 +38,7 @@ Or install specific skills:
 npx skills add full-stack-skills/design-skills --skill <skill-name>
 ```
 
-## 🎯 Skills (16)
+## 🎯 Skills (19)
 
 | Skill | Description |
 |-------|-------------|
@@ -50,12 +50,15 @@ npx skills add full-stack-skills/design-skills --skill <skill-name>
 | `ui-design-feature` | Turn underspecified product features into observable behavior contracts covering actions, states, permissions, evidence, and acceptance. |
 | `ui-design-nav` | Define scoped navigation, routes, activation, context propagation, deep links, and return contracts without hierarchy drift. |
 | `ui-design-continuity` | Continue approved UI families with explicit immutable regions, change budgets, scoped feedback, and baseline-vs-candidate checks. |
-| `ui-design-spec` | Unified entry: spec mode produces complete feature/page/flow/layout/task packages with Agent Browser and Evently examples; execution mode hands off to Harness and specialists. |
+| `ui-design-spec` | Unified entry: Product-independent method for menu maps, page specs, interaction surfaces, flows, independent design units, and generated consistency checks; execution hands off to Harness and specialists. |
 | `ui-design-review` | Audit cross-artifact design consistency, distinguish mechanical and judgment checks, and block promotion when evidence or authority is unresolved. |
 | `ui-design-harness` | Execute resumable, evidence-backed design SOPs across specialist skills, tools, approvals, corrections, reconciliation, and promotion gates. |
 | `ui-design-theme` | Apply reusable artifact themes. |
 | `remotion` | Create programmatic videos with Remotion. |
 | `ui-design-visual` | Create high-fidelity HTML design prototypes. |
+| [ui-design-use](skills/ui-design-use/SKILL.md) | Route frontend design work to source-managed specialists; plugins distribute pinned snapshots. |
+| [product-interface-spec](skills/product-interface-spec/SKILL.md) | Product features, interfaces, journeys and task specifications with delivery validation. |
+| [ui-design-to-image](skills/ui-design-to-image/SKILL.md) | Generate scoped UI concept images and frontend raster assets with native imagegen or an explicitly selected image backend. |
 | [ui-design-preview](skills/ui-design-preview/SKILL.md) | Synchronized pages/themes and multi-device preview comparison, with a complete standalone application. |
 | `better-icons` | Find and use icons. |
 
