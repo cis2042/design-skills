@@ -176,3 +176,10 @@ demos/**/*.mp4
 
 # Standalone preview capability-alignment baseline
 !skills/ui-design-preview/assets/device-preview/review/alignment-baseline/baseline.json
+
+# Portable React preview: source lockfiles and verified static build.
+!skills/ui-design-preview/assets/device-preview/frontend/package.json
+!skills/ui-design-preview/assets/device-preview/frontend/package-lock.json
+!skills/ui-design-preview/assets/device-preview/frontend/dist/
+!skills/ui-design-preview/assets/device-preview/frontend/dist/**
+!skills/ui-design-preview/assets/vanilla-reference-20260930/review/alignment-baseline/baseline.json

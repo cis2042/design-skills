@@ -1,0 +1,1 @@
+{"name":"agentscope-device-preview","private":true,"version":"1.0.0","type":"module","scripts":{"build":"vite build","dev":"vite --host 127.0.0.1"},"dependencies":{"@ant-design/cssinjs":"1.24.0","@ant-design/icons":"^5.6.1","antd":"^5.29.0","antd-mobile":"^5.42.0","react":"^18.3.1","react-dom":"^18.3.1"},"devDependencies":{"vite":"^6.4.1"}}

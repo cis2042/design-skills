@@ -1,9 +1,7 @@
 # 参考代码来源
 
-完整案例取自 `agentscope-swift/docs/functional-design/prototypes/agent-workbench` 的2026-09-30工作区版本（含尚未提交的设计修改）。源项目为AgentScope Phone/Pad交互设计原型，不宣称是Stitch远程生成结果。
+来源：AgentScope Swift `docs/functional-design/prototypes/agent-workbench/frontend`，2026-09-30 未提交工作区中的 React 迁移版本。静态产物来自同份源码的 Vite 构建，不是 Stitch 远程生成成果。依赖精确解析见 `frontend/package-lock.json`；原 AS 标志仅用作案例品牌，复用时替换为有权使用的素材。
 
-`SHA256SUMS`记录本包全部HTML/CSS/JS/Python、说明、品牌资产和三张已认可能力组织基线的逐文件散列；这些文件与采集时源目录逐字节一致。未打包其他历史截图、缓存与旧验证输出，运行验证可在当前副本重新产生输出。两项预览技能各持有完整独立副本。
+本包包括完整 React 源码、锁文件、构建配置、静态产物及可执行浏览器验证脚本。不包括 node_modules 或个人数据。两项预览技能各自持有独立副本，无兄弟技能依赖。
 
-原AS标志来自该项目的共享品牌SVG，保留原始几何与颜色，仅用于参考案例品牌识别；复用到其他产品时替换为该产品有权使用的品牌。技能文档遵循所在技能仓库许可，不能据此推定第三方商标授权。没有复制用户密钥、个人配置或浏览器数据。
-
-核验代码：在此目录执行 `shasum -a 256 -c SHA256SUMS`。实际启动及浏览器验证步骤见README。原型成功不代表真实模型调用、包安装或原生客户端验证成功。
+执行 `shasum -a 256 -c SHA256SUMS` 验证交付物；修改后重新生成清单。

@@ -1,0 +1,57 @@
+/* Source: Codex inline_visualization/visualize.css, revision 0462dcc062.
+   Typography and surface tokens are source-derived; composer geometry is ours. */
+.application,
+.composer-sheet,
+.composer-popover {
+  --reference-font: -apple-system, system-ui, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --reference-body: 14px;
+  --reference-caption: 12px;
+  --reference-menu: 13px;
+  --reference-weight: 430;
+  --reference-medium: 500;
+  --reference-radius: 12.5px;
+  --reference-border: rgb(26 28 31 / 8%);
+}
+html[data-theme="dark"] .application,
+html[data-theme="dark"] .composer-sheet,
+html[data-theme="dark"] .composer-popover {
+  --reference-border: rgb(255 255 255 / 8.2%);
+}
+.composer-complete {
+  font-family: var(--reference-font);
+  border-color: var(--reference-border);
+  border-radius: calc(var(--reference-radius) * 1.6);
+  box-shadow: 0 1px 2px -1px rgb(0 0 0 / 8%);
+}
+.composer-complete textarea.ant-input {
+  font-family: var(--reference-font);
+  font-size: var(--reference-body);
+  font-weight: var(--reference-weight);
+  line-height: 1.5;
+}
+.composer-control.ant-btn,
+.composer-control.adm-button,
+.queue-text {
+  font-family: var(--reference-font);
+  font-size: var(--reference-caption);
+  font-weight: var(--reference-weight);
+}
+.composer-context>span:not(.context-image) {
+  border-color: var(--reference-border);
+  border-radius: calc(var(--reference-radius) * .6);
+}
+.composer-popover .ant-popover-inner {
+  border-color: var(--reference-border);
+  border-radius: var(--reference-radius);
+}
+.composer-menu { font-family: var(--reference-font); }
+.composer-option strong {
+  font-size: var(--reference-menu);
+  font-weight: var(--reference-medium);
+  line-height: 1.4285714286;
+}
+.composer-option small {
+  font-size: var(--reference-caption);
+  line-height: 16px;
+}
+.queue-row { border-color: var(--reference-border); }
